@@ -191,11 +191,12 @@
 		                    res[i][propval] = result;
 		                }
 		            });
-					console.log(res);
+					//console.log(res);
+					console.log(res[0])
 					res.unshift('');
 					delete res[0];
 				}
-				console.log(res);
+				console.log(res[1]);
 			    eventTable.MPTable('setData', res);
 			});
 		}
